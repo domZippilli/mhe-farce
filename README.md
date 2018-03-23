@@ -34,7 +34,9 @@ This is an internet-facing deployment of GitLabs with some previously private re
 
 It's HA GitLab, with an active/passive HA system. The active and passive nodes should be in separate AZs, and therefore subnets. They will need security groups to allow HA synchronization.
 
-For an active/passive system, the best bet for a reverse proxy is the good ol' ELB, with a healthcheck. The ELB will not do SSL termination in this setup.
+For an active/passive system with an unspecified DNS provider, the best bet for a reverse proxy is the good ol' ELB, with a healthcheck. The ELB will not do SSL termination in this setup.
+
+See [diagram](./doc/ArchitectureDiagram.pdf).
 
 
 
