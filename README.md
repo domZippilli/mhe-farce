@@ -1,7 +1,9 @@
 # Public GitLab Project
 ## McGraw-Hill Education, Farcical Education Labs
 
-This is an internet-facing deployment of GitLabs with some previously private repositories that MHE/FEL wants to make public. For some reason, these couldn't just go on GitHub.
+This is an internet-facing deployment of GitLabs with some previously private repositories that MHE/FEL wants to make public.
+
+Read on, or go right to the [diagram here](./doc/ArchitectureDiagram.pdf).
 
 ## Networks To Know
 
